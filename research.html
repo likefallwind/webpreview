@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学术成果 - AI Laboratory</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>AI Lab</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">首页</a></li>
+                <li><a href="about.html" class="nav-link">实验室介绍</a></li>
+                <li><a href="research.html" class="nav-link active">学术成果</a></li>
+                <li><a href="projects.html" class="nav-link">研究项目</a></li>
+                <li><a href="team.html" class="nav-link">团队成员</a></li>
+                <li><a href="contact.html" class="nav-link">联系我们</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">学术成果</h1>
+            <p class="page-subtitle">Research Publications & Academic Achievements</p>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section class="section research-list-section">
+        <div class="container">
+            <!-- Filter Options -->
+            <div class="research-filters">
+                <div class="filter-group">
+                    <label>年份：</label>
+                    <select id="year-filter" class="filter-select">
+                        <option value="all">全部</option>
+                        <option value="2024" selected>2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>研究领域：</label>
+                    <select id="topic-filter" class="filter-select">
+                        <option value="all">全部</option>
+                        <option value="cv">计算机视觉</option>
+                        <option value="nlp">自然语言处理</option>
+                        <option value="ml">机器学习</option>
+                        <option value="fl">联邦学习</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>会议/期刊：</label>
+                    <select id="venue-filter" class="filter-select">
+                        <option value="all">全部</option>
+                        <option value="neurips">NeurIPS</option>
+                        <option value="icml">ICML</option>
+                        <option value="cvpr">CVPR</option>
+                        <option value="acl">ACL</option>
+                        <option value="iccv">ICCV</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Papers List -->
+            <div class="papers-list">
+                <!-- 2024 Papers -->
+                <div class="year-section">
+                    <h2 class="year-heading">2024</h2>
+                    
+                    <div class="paper-item" data-year="2024" data-topic="cv" data-venue="neurips">
+                        <div class="paper-header">
+                            <h3 class="paper-title">Efficient Transformer Architecture for Large-Scale Vision Tasks</h3>
+                            <span class="paper-venue neurips">NeurIPS 2024</span>
+                        </div>
+                        <p class="paper-authors">
+                            <strong>Zhang Wei</strong>, Li Ming, Wang Hua, Chen Yun, Liu Jie
+                        </p>
+                        <p class="paper-abstract">
+                            提出了一种新型的高效Transformer架构EViT（Efficient Vision Transformer），在大规模视觉任务中实现了SOTA性能，同时降低了50%的计算成本。该架构通过创新的注意力机制和动态token剪枝策略，在ImageNet-1K上达到了88.5%的top-1准确率，同时FLOPs仅为传统ViT的一半。
+                        </p>
+                        <div class="paper-footer">
+                            <div class="paper-tags">
+                                <span class="tag">Computer Vision</span>
+                                <span class="tag">Transformer</span>
+                                <span class="tag">Efficiency</span>
+                            </div>
+                            <div class="paper-links">
+                                <a href="#" class="paper-link">PDF</a>
+                                <a href="#" class="paper-link">Code</a>
+                                <a href="#" class="paper-link">Cite</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paper-item" data-year="2024" data-topic="fl" data-venue="icml">
+                        <div class="paper-header">
+                            <h3 class="paper-title">Federated Learning with Differential Privacy Guarantees: A Unified Framework</h3>
+                            <span class="paper-venue icml">ICML 2024</span>
+                        </div>
+                        <p class="paper-authors">
+                            <strong>Chen Yun</strong>, Liu Jie, Zhao Feng, <strong>Zhang Wei</strong>
+                        </p>
+                        <p class="paper-abstract">
+                            开发了一个具有差分隐私保证的联邦学习统一框架FedDP，在保护用户隐私的同时实现了高精度的模型训练。该框架通过自适应噪声注入和安全聚合协议，在多个基准数据集上的性能损失小于3%，同时提供了严格的ε-差分隐私保证（ε=1.0）。在医疗影像分类任务上取得了94.2%的准确率。
+                        </p>
+                        <div class="paper-footer">
+                            <div class="paper-tags">
+                                <span class="tag">Federated Learning</span>
+                                <span class="tag">Privacy</span>
+                                <span class="tag">Security</span>
+                            </div>
+                            <div class="paper-links">
+                                <a href="#" class="paper-link">PDF</a>
+                                <a href="#" class="paper-link">Code</a>
+                                <a href="#" class="paper-link">Cite</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paper-item" data-year="2024" data-topic="nlp" data-venue="acl">
+                        <div class="paper-header">
+                            <h3 class="paper-title">Cross-lingual Knowledge Transfer in Large Language Models</h3>
+                            <span class="paper-venue acl">ACL 2024</span>
+                        </div>
+                        <p class="paper-authors">
+                            <strong>Yang Xiao</strong>, Zhou Min, Xu Lei, <strong>Li Ming</strong>
+                        </p>
+                        <p class="paper-abstract">
+                            研究了大语言模型中的跨语言知识迁移机制，提出了一种新的预训练方法XLKT（Cross-Lingual Knowledge Transfer），显著提升了低资源语言的性能。在20种低资源语言上的实验表明，该方法相比基线模型平均提升了15.3%的BLEU分数，在某些语言对上甚至达到了25%的提升。
+                        </p>
+                        <div class="paper-footer">
+                            <div class="paper-tags">
+                                <span class="tag">NLP</span>
+                                <span class="tag">LLM</span>
+                                <span class="tag">Cross-lingual</span>
+                            </div>
+                            <div class="paper-links">
+                                <a href="#" class="paper-link">PDF</a>
+                                <a href="#" class="paper-link">Code</a>
+                                <a href="#" class="paper-link">Cite</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paper-item" data-year="2024" data-topic="cv" data-venue="cvpr">
+                        <div class="paper-header">
+                            <h3 class="paper-title">Self-Supervised Learning for 3D Scene Understanding</h3>
+                            <span class="paper-venue cvpr">CVPR 2024</span>
+                        </div>
+                        <p class="paper-authors">
+                            <strong>Sun Qiang</strong>, Ma Rui, Gao Yan, <strong>Zhang Wei</strong>
+                        </p>
+                        <p class="paper-abstract">
+                            提出了一种新的自监督学习方法SSL3D用于3D场景理解，无需大量标注数据即可达到优秀的性能。通过对比学习和几何约束的结合，在ScanNet数据集上的语义分割任务达到了72.8 mIoU，在仅使用10%标注数据的情况下超越了全监督方法的性能。
+                        </p>
+                        <div class="paper-footer">
+                            <div class="paper-tags">
+                                <span class="tag">3D Vision</span>
+                                <span class="tag">Self-Supervised</span>
+                                <span class="tag">Scene Understanding</span>
+                            </div>
+                            <div class="paper-links">
+                                <a href="#" class="paper-link">PDF</a>
+                                <a href="#" class="paper-link">Code</a>
+                                <a href="#" class="paper-link">Cite</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paper-item" data-year="2024" data-topic="cv" data-venue="iccv">
+                        <div class="paper-header">
+                            <h3 class="paper-title">Multi-Modal Fusion for Autonomous Driving Perception</h3>
+                            <span class="paper-venue iccv">ICCV 2024</span>
+                        </div>
+                        <p class="paper-authors">
+                            Ma Rui, <strong>Sun Qiang</strong>, <strong>Wang Hua</strong>, Gao Yan
+                        </p>
+                        <p class="paper-abstract">
+                            开发了一个多模态融合框架MMFusion，用于自动驾驶场景下的感知任务。该框架有效整合了相机、激光雷达和毫米波雷达的信息，在nuScenes数据集上的3D目标检测mAP达到了68.7%，在恶劣天气条件下相比单模态方法提升了12.5%。
+                        </p>
+                        <div class="paper-footer">
+                            <div class="paper-tags">
+                                <span class="tag">Autonomous Driving</span>
+                                <span class="tag">Multi-Modal</span>
+                                <span class="tag">Sensor Fusion</span>
+                            </div>
+                            <div class="paper-links">
+                                <a href="#" class="paper-link">PDF</a>
+                                <a href="#" class="paper-link">Code</a>
+                                <a href="#" class="paper-link">Cite</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2023 Papers -->
+                <div class="year-section">
+                    <h2 class="year-heading">2023</h2>
+                    
+                    <div class="paper-item" data-year="2023" data-topic="nlp" data-venue="acl">
+                        <div class="paper-header">
+                            <h3 class="paper-title">Knowledge Graph Enhanced Pre-training for Domain-Specific Tasks</h3>
+                            <span class="paper-venue acl">ACL 2023</span>
+                        </div>
+                        <p class="paper-authors">
+                            <strong>Li Ming</strong>, Xu Lei, <strong>Yang Xiao</strong>, Zhou Min
+                        </p>
+                        <p class="paper-abstract">
+                            提出了知识图谱增强的预训练方法KGPT，在领域特定任务上取得了显著提升。通过将结构化知识融入预训练过程，在生物医学、金融等领域的下游任务上平均提升了18.6%的F1分数。
+                        </p>
+                        <div class="paper-footer">
+                            <div class="paper-tags">
+                                <span class="tag">Knowledge Graph</span>
+                                <span class="tag">Pre-training</span>
+                                <span class="tag">Domain Adaptation</span>
+                            </div>
+                            <div class="paper-links">
+                                <a href="#" class="paper-link">PDF</a>
+                                <a href="#" class="paper-link">Code</a>
+                                <a href="#" class="paper-link">Cite</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paper-item" data-year="2023" data-topic="ml" data-venue="neurips">
+                        <div class="paper-header">
+                            <h3 class="paper-title">Adaptive Optimization for Deep Neural Networks</h3>
+                            <span class="paper-venue neurips">NeurIPS 2023</span>
+                        </div>
+                        <p class="paper-authors">
+                            <strong>Wang Hua</strong>, <strong>Zhang Wei</strong>, Chen Yun
+                        </p>
+                        <p class="paper-abstract">
+                            提出了一种自适应优化算法AdaOpt，能够根据训练过程动态调整学习率和momentum参数。在多个基准任务上，该方法相比Adam和SGD分别提升了2.3%和4.7%的准确率，同时训练速度提升了30%。
+                        </p>
+                        <div class="paper-footer">
+                            <div class="paper-tags">
+                                <span class="tag">Optimization</span>
+                                <span class="tag">Deep Learning</span>
+                                <span class="tag">Training</span>
+                            </div>
+                            <div class="paper-links">
+                                <a href="#" class="paper-link">PDF</a>
+                                <a href="#" class="paper-link">Code</a>
+                                <a href="#" class="paper-link">Cite</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2"/>
+                            <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <span>AI Laboratory</span>
+                    </div>
+                    <p>致力于推动人工智能技术发展，培养优秀AI人才</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>快速链接</h4>
+                        <ul>
+                            <li><a href="about.html">关于我们</a></li>
+                            <li><a href="research.html">学术成果</a></li>
+                            <li><a href="projects.html">研究项目</a></li>
+                            <li><a href="team.html">团队成员</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>资源</h4>
+                        <ul>
+                            <li><a href="#">开源代码</a></li>
+                            <li><a href="#">数据集</a></li>
+                            <li><a href="#">技术博客</a></li>
+                            <li><a href="#">招生信息</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>关注我们</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-icon">Twitter</a>
+                            <a href="#" class="social-icon">GitHub</a>
+                            <a href="#" class="social-icon">LinkedIn</a>
+                            <a href="#" class="social-icon">WeChat</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI Laboratory. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

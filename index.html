@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Laboratory - Artificial Intelligence Research Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>AI Lab</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">首页</a></li>
+                <li><a href="about.html" class="nav-link">实验室介绍</a></li>
+                <li><a href="research.html" class="nav-link">学术成果</a></li>
+                <li><a href="projects.html" class="nav-link">研究项目</a></li>
+                <li><a href="team.html" class="nav-link">团队成员</a></li>
+                <li><a href="contact.html" class="nav-link">联系我们</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Advancing Artificial Intelligence</span>
+                    <br>for a Better Tomorrow
+                </h1>
+                <p class="hero-subtitle">
+                    我们致力于前沿人工智能技术研究，推动机器学习、深度学习和认知计算的创新发展
+                </p>
+                <div class="hero-buttons">
+                    <a href="research.html" class="btn btn-primary">探索研究成果</a>
+                    <a href="contact.html" class="btn btn-outline">加入我们</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section (Preview) -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">About Us</span>
+                <h2 class="section-title">实验室介绍</h2>
+                <p class="section-subtitle">Leading Innovation in Artificial Intelligence Research</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        本实验室成立于2018年，是一个专注于人工智能前沿技术研究的学术机构。我们汇聚了一批在机器学习、深度学习、计算机视觉、自然语言处理等领域具有深厚造诣的研究人员。
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h3>研究领域</h3>
+                            <p>深度学习、计算机视觉、NLP、强化学习、联邦学习</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h3>发表论文</h3>
+                            <p>100+ 顶级会议和期刊论文发表</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89318 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h3>团队规模</h3>
+                            <p>30+ 优秀研究人员和博士生</p>
+                        </div>
+                    </div>
+                    <div style="text-align: center; margin-top: 3rem;">
+                        <a href="about.html" class="btn btn-primary">了解更多 →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2"/>
+                            <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <span>AI Laboratory</span>
+                    </div>
+                    <p>致力于推动人工智能技术发展，培养优秀AI人才</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>快速链接</h4>
+                        <ul>
+                            <li><a href="#about">关于我们</a></li>
+                            <li><a href="#research">学术成果</a></li>
+                            <li><a href="#projects">研究项目</a></li>
+                            <li><a href="#team">团队成员</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>资源</h4>
+                        <ul>
+                            <li><a href="#">开源代码</a></li>
+                            <li><a href="#">数据集</a></li>
+                            <li><a href="#">技术博客</a></li>
+                            <li><a href="#">招生信息</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>关注我们</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-icon">Twitter</a>
+                            <a href="#" class="social-icon">GitHub</a>
+                            <a href="#" class="social-icon">LinkedIn</a>
+                            <a href="#" class="social-icon">WeChat</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI Laboratory. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
