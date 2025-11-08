@@ -7,22 +7,23 @@ A modern, responsive website for an AI research laboratory showcasing research a
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
 - **Modern UI**: Clean, professional interface with smooth animations
 - **Single Page Navigation**: Smooth scrolling for lab introduction section
-- **Research Publications**: Filterable list of academic papers
+- **News Section**: Latest updates with summary on homepage and dedicated news page
+- **Research Publications**: Filterable list of academic papers with venue badges
 - **Project Showcase**: Horizontal row layout for research projects
-- **Team Profiles**: Display of lab members and researchers
-- **Contact Information**: Easy access to lab contact details
-- **Recruitment Section**: Information for postdoc, PhD, and master's student recruitment
+- **Team Profiles**: Display of lab members with awards and achievements (max 3 awards per person)
+- **Join Us Page**: Recruitment information with contact details
+- **Static Content**: No forms or backend required, pure frontend implementation
 
 ## 📁 Project Structure
 
 ```
 webpreview/
-├── index.html          # Homepage with hero section and lab introduction
-├── about.html          # Detailed lab introduction page
+├── index.html          # Homepage with hero, lab intro, and news summary
+├── news.html           # Full news page with all news items
 ├── research.html       # Academic publications page
 ├── projects.html       # Research projects showcase
-├── team.html           # Team members page
-├── contact.html        # Contact information and recruitment
+├── team.html           # Team members page with awards
+├── contact.html        # Join Us page (recruitment + contact info)
 ├── styles.css          # Global styles and component styles
 ├── script.js           # JavaScript for interactions and animations
 ├── README.md           # This file
@@ -69,26 +70,38 @@ Then visit `http://localhost:8000` in your browser.
 All content is managed directly in the HTML files. To update:
 
 ### Update Lab Information
-- Edit `index.html` (About section) and `about.html`
+- Edit `index.html` (About section with lab overview)
+- Lab introduction uses smooth scrolling navigation via `#about` anchor
+
+### Add/Edit News Items
+- Edit `news.html` for the full news page
+- Edit `index.html` news summary section (displays first 3 items with date + title only)
+- Each news item includes: date, title, and content (2-3 lines)
+- News items are displayed as full-width rows
 
 ### Add/Edit Publications
 - Edit `research.html`
 - Each paper is in a `.paper-item` div
 - Update filters as needed (year, topic, venue)
+- Include "View Paper" button in the bottom right corner
 
 ### Add/Edit Projects
 - Edit `projects.html`
-- Each project is in a `.project-row` div
+- Each project is in a `.project-row` div (horizontal row format)
 - Update project title, description, and link
 
 ### Add/Edit Team Members
 - Edit `team.html`
 - Each member is in a `.team-card` div
+- Include email address for each member
+- Add awards section (maximum 3 awards per person)
+- Each member has only one "个人主页" (Personal Homepage) button
 
-### Update Contact Info
-- Edit `contact.html`
-- Update address, email, phone in the info cards
-- Edit recruitment information
+### Update Contact/Recruitment Info
+- Edit `contact.html` (now titled "加入我们" - Join Us)
+- Recruitment information is displayed first
+- Contact details (address, email, phone) are shown second
+- No input forms - static information only
 
 ## 🎨 Customization
 
