@@ -61,27 +61,6 @@
                         <option value="2021">2021</option>
                     </select>
                 </div>
-                <div class="filter-group">
-                    <label>研究领域：</label>
-                    <select id="topic-filter" class="filter-select">
-                        <option value="all">全部</option>
-                        <option value="cv">计算机视觉</option>
-                        <option value="nlp">自然语言处理</option>
-                        <option value="ml">机器学习</option>
-                        <option value="fl">联邦学习</option>
-                    </select>
-                </div>
-                <div class="filter-group">
-                    <label>会议/期刊：</label>
-                    <select id="venue-filter" class="filter-select">
-                        <option value="all">全部</option>
-                        <option value="neurips">NeurIPS</option>
-                        <option value="icml">ICML</option>
-                        <option value="cvpr">CVPR</option>
-                        <option value="acl">ACL</option>
-                        <option value="iccv">ICCV</option>
-                    </select>
-                </div>
             </div>
 
             <!-- Papers List -->
@@ -93,8 +72,8 @@
                     <div class="paper-item" data-year="2024" data-topic="cv" data-venue="neurips">
                         <div class="paper-header">
                             <h3 class="paper-title">Efficient Transformer Architecture for Large-Scale Vision Tasks</h3>
-                            <span class="paper-venue neurips">NeurIPS 2024</span>
                         </div>
+                        <p class="paper-venue">会议/期刊：Advances in Neural Information Processing Systems (NeurIPS) 2024</p>
                         <p class="paper-authors">
                             <strong>Zhang Wei</strong>, Li Ming, Wang Hua, Chen Yun, Liu Jie
                         </p>
@@ -102,7 +81,6 @@
                             提出了一种新型的高效Transformer架构EViT（Efficient Vision Transformer），在大规模视觉任务中实现了SOTA性能，同时降低了50%的计算成本。该架构通过创新的注意力机制和动态token剪枝策略，在ImageNet-1K上达到了88.5%的top-1准确率，同时FLOPs仅为传统ViT的一半。
                         </p>
                         <div class="paper-footer">
-                            <div class="paper-doi">DOI: 10.5555/neurips.2024.12345</div>
                             <a href="https://proceedings.neurips.cc/paper/2024/evit" class="paper-url-btn" target="_blank">View Paper</a>
                         </div>
                     </div>
@@ -110,8 +88,8 @@
                     <div class="paper-item" data-year="2024" data-topic="fl" data-venue="icml">
                         <div class="paper-header">
                             <h3 class="paper-title">Federated Learning with Differential Privacy Guarantees: A Unified Framework</h3>
-                            <span class="paper-venue icml">ICML 2024</span>
                         </div>
+                        <p class="paper-venue">会议/期刊：International Conference on Machine Learning (ICML) 2024</p>
                         <p class="paper-authors">
                             <strong>Chen Yun</strong>, Liu Jie, Zhao Feng, <strong>Zhang Wei</strong>
                         </p>
@@ -119,7 +97,6 @@
                             开发了一个具有差分隐私保证的联邦学习统一框架FedDP，在保护用户隐私的同时实现了高精度的模型训练。该框架通过自适应噪声注入和安全聚合协议，在多个基准数据集上的性能损失小于3%，同时提供了严格的ε-差分隐私保证（ε=1.0）。在医疗影像分类任务上取得了94.2%的准确率。
                         </p>
                         <div class="paper-footer">
-                            <div class="paper-doi">DOI: 10.5555/icml.2024.67890</div>
                             <a href="https://proceedings.mlr.press/v235/feddp.html" class="paper-url-btn" target="_blank">View Paper</a>
                         </div>
                     </div>
@@ -127,8 +104,8 @@
                     <div class="paper-item" data-year="2024" data-topic="nlp" data-venue="acl">
                         <div class="paper-header">
                             <h3 class="paper-title">Cross-lingual Knowledge Transfer in Large Language Models</h3>
-                            <span class="paper-venue acl">ACL 2024</span>
                         </div>
+                        <p class="paper-venue">会议/期刊：Annual Meeting of the Association for Computational Linguistics (ACL) 2024</p>
                         <p class="paper-authors">
                             <strong>Yang Xiao</strong>, Zhou Min, Xu Lei, <strong>Li Ming</strong>
                         </p>
@@ -136,7 +113,6 @@
                             研究了大语言模型中的跨语言知识迁移机制，提出了一种新的预训练方法XLKT（Cross-Lingual Knowledge Transfer），显著提升了低资源语言的性能。在20种低资源语言上的实验表明，该方法相比基线模型平均提升了15.3%的BLEU分数，在某些语言对上甚至达到了25%的提升。
                         </p>
                         <div class="paper-footer">
-                            <div class="paper-doi">DOI: 10.18653/v1/2024.acl-long.234</div>
                             <a href="https://aclanthology.org/2024.acl-long.234" class="paper-url-btn" target="_blank">View Paper</a>
                         </div>
                     </div>
@@ -144,8 +120,8 @@
                     <div class="paper-item" data-year="2024" data-topic="cv" data-venue="cvpr">
                         <div class="paper-header">
                             <h3 class="paper-title">Self-Supervised Learning for 3D Scene Understanding</h3>
-                            <span class="paper-venue cvpr">CVPR 2024</span>
                         </div>
+                        <p class="paper-venue">会议/期刊：IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2024</p>
                         <p class="paper-authors">
                             <strong>Sun Qiang</strong>, Ma Rui, Gao Yan, <strong>Zhang Wei</strong>
                         </p>
@@ -153,7 +129,6 @@
                             提出了一种新的自监督学习方法SSL3D用于3D场景理解，无需大量标注数据即可达到优秀的性能。通过对比学习和几何约束的结合，在ScanNet数据集上的语义分割任务达到了72.8 mIoU，在仅使用10%标注数据的情况下超越了全监督方法的性能。
                         </p>
                         <div class="paper-footer">
-                            <div class="paper-doi">DOI: 10.1109/CVPR52733.2024.01456</div>
                             <a href="https://openaccess.thecvf.com/content/CVPR2024/html/ssl3d.html" class="paper-url-btn" target="_blank">View Paper</a>
                         </div>
                     </div>
@@ -161,8 +136,8 @@
                     <div class="paper-item" data-year="2024" data-topic="cv" data-venue="iccv">
                         <div class="paper-header">
                             <h3 class="paper-title">Multi-Modal Fusion for Autonomous Driving Perception</h3>
-                            <span class="paper-venue iccv">ICCV 2024</span>
                         </div>
+                        <p class="paper-venue">会议/期刊：IEEE/CVF International Conference on Computer Vision (ICCV) 2024</p>
                         <p class="paper-authors">
                             Ma Rui, <strong>Sun Qiang</strong>, <strong>Wang Hua</strong>, Gao Yan
                         </p>
@@ -170,7 +145,6 @@
                             开发了一个多模态融合框架MMFusion，用于自动驾驶场景下的感知任务。该框架有效整合了相机、激光雷达和毫米波雷达的信息，在nuScenes数据集上的3D目标检测mAP达到了68.7%，在恶劣天气条件下相比单模态方法提升了12.5%。
                         </p>
                         <div class="paper-footer">
-                            <div class="paper-doi">DOI: 10.1109/ICCV51070.2024.00789</div>
                             <a href="https://openaccess.thecvf.com/content/ICCV2024/html/mmfusion.html" class="paper-url-btn" target="_blank">View Paper</a>
                         </div>
                     </div>
@@ -183,8 +157,8 @@
                     <div class="paper-item" data-year="2023" data-topic="nlp" data-venue="acl">
                         <div class="paper-header">
                             <h3 class="paper-title">Knowledge Graph Enhanced Pre-training for Domain-Specific Tasks</h3>
-                            <span class="paper-venue acl">ACL 2023</span>
                         </div>
+                        <p class="paper-venue">会议/期刊：Annual Meeting of the Association for Computational Linguistics (ACL) 2023</p>
                         <p class="paper-authors">
                             <strong>Li Ming</strong>, Xu Lei, <strong>Yang Xiao</strong>, Zhou Min
                         </p>
@@ -192,7 +166,6 @@
                             提出了知识图谱增强的预训练方法KGPT，在领域特定任务上取得了显著提升。通过将结构化知识融入预训练过程，在生物医学、金融等领域的下游任务上平均提升了18.6%的F1分数。
                         </p>
                         <div class="paper-footer">
-                            <div class="paper-doi">DOI: 10.18653/v1/2023.acl-long.567</div>
                             <a href="https://aclanthology.org/2023.acl-long.567" class="paper-url-btn" target="_blank">View Paper</a>
                         </div>
                     </div>
@@ -200,8 +173,8 @@
                     <div class="paper-item" data-year="2023" data-topic="ml" data-venue="neurips">
                         <div class="paper-header">
                             <h3 class="paper-title">Adaptive Optimization for Deep Neural Networks</h3>
-                            <span class="paper-venue neurips">NeurIPS 2023</span>
                         </div>
+                        <p class="paper-venue">会议/期刊：Advances in Neural Information Processing Systems (NeurIPS) 2023</p>
                         <p class="paper-authors">
                             <strong>Wang Hua</strong>, <strong>Zhang Wei</strong>, Chen Yun
                         </p>
@@ -209,7 +182,6 @@
                             提出了一种自适应优化算法AdaOpt，能够根据训练过程动态调整学习率和momentum参数。在多个基准任务上，该方法相比Adam和SGD分别提升了2.3%和4.7%的准确率，同时训练速度提升了30%。
                         </p>
                         <div class="paper-footer">
-                            <div class="paper-doi">DOI: 10.5555/neurips.2023.98765</div>
                             <a href="https://proceedings.neurips.cc/paper/2023/adaopt" class="paper-url-btn" target="_blank">View Paper</a>
                         </div>
                     </div>
