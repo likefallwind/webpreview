@@ -67,35 +67,44 @@ Then visit `http://localhost:8000` in your browser.
 
 ## 📝 Content Management
 
-All content is managed directly in the HTML files. To update:
+Content is now loaded dynamically from JSON files so updates flow from `info_list.xlsx` → JSON → HTML.
 
-### Update Lab Information
-- Edit `index.html` (About section with lab overview)
-- Lab introduction uses smooth scrolling navigation via `#about` anchor
+### Data update workflow
+1. Install dependencies (one-time):
+   ```bash
+   pip install pandas openpyxl
+   ```
+2. Update `info_list.xlsx` with the latest news, publications, projects, and team information.
+3. Run the loader to regenerate the JSON payloads consumed by the site:
+   ```bash
+   python scripts/load_data.py
+   ```
+   This writes `news.json`, `research.json`, `projects.json`, and `team.json` into the `data/` directory.
+4. **Recommended:** serve the site from the repository root so the pages can fetch the JSON files reliably. Examples:
+   ```bash
+   python -m http.server 8000
+   # or
+   npx http-server
+   ```
+   Then visit `http://localhost:8000`.
 
-### Add/Edit News Items
-- Edit `news.html` for the full news page
-- Edit `index.html` news summary section (displays first 3 items with date + title only)
-- Each news item includes: date, title, and content (2-3 lines)
-- News items are displayed as full-width rows
+   > Tip: When double‑clicking `index.html` (loading via `file://`), some browsers block `fetch` to local JSON. The pages include a local XHR fallback, but if your browser still shows “加载数据失败”, start the local server above instead.
 
-### Add/Edit Publications
-- Edit `research.html`
-- Each paper is in a `.paper-item` div
-- Update filters as needed (year, topic, venue)
-- Include "View Paper" button in the bottom right corner
+### Verify data is in sync with the site
 
-### Add/Edit Projects
-- Edit `projects.html`
-- Each project is in a `.project-row` div (horizontal row format)
-- Update project title, description, and link
+Run the data integrity test to confirm the generated JSON matches the Excel source:
 
-### Add/Edit Team Members
-- Edit `team.html`
-- Each member is in a `.team-card` div
-- Include email address for each member
-- Add awards section (maximum 3 awards per person)
-- Each member has only one "个人主页" (Personal Homepage) button
+```bash
+python -m unittest tests/test_data_integrity.py
+```
+
+If the test fails, regenerate the JSON with `python scripts/load_data.py` and re-run the test.
+
+### Page-specific notes
+- `news.html`: renders the news feed ordered by date from `data/news.json`.
+- `research.html`: builds year-based sections from `data/research.json` with a dynamic year filter and optional paper links.
+- `projects.html`: lists projects (with optional links/logos) from `data/projects.json`.
+- `team.html`: shows faculty first, followed by students, sourced from `data/team.json` (awards limited to three items per person when available).
 
 ### Update Contact/Recruitment Info
 - Edit `contact.html` (now titled "加入我们" - Join Us)
