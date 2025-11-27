@@ -80,13 +80,15 @@ Content is now loaded dynamically from JSON files so updates flow from `info_lis
    python scripts/load_data.py
    ```
    This writes `news.json`, `research.json`, `projects.json`, and `team.json` into the `data/` directory.
-4. Serve the site from the repository root so the pages can `fetch` the JSON files (browsers block `file://` fetches). Examples:
+4. **Recommended:** serve the site from the repository root so the pages can fetch the JSON files reliably. Examples:
    ```bash
    python -m http.server 8000
    # or
    npx http-server
    ```
    Then visit `http://localhost:8000`.
+
+   > Tip: When double‑clicking `index.html` (loading via `file://`), some browsers block `fetch` to local JSON. The pages include a local XHR fallback, but if your browser still shows “加载数据失败”, start the local server above instead.
 
 ### Verify data is in sync with the site
 

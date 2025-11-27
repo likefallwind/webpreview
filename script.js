@@ -167,11 +167,38 @@ document.documentElement.style.visibility = 'visible';
 const DATA_DIR = 'data';
 
 async function fetchData(fileName) {
-    const response = await fetch(`${DATA_DIR}/${fileName}`);
-    if (!response.ok) {
-        throw new Error(`无法加载数据：${fileName}`);
+    const url = `${DATA_DIR}/${fileName}`;
+
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`无法加载数据：${fileName}`);
+        }
+        return response.json();
+    } catch (err) {
+        // When opened via file://, browsers may block fetch; fall back to XHR for local viewing.
+        if (window.location.protocol === 'file:') {
+            return new Promise((resolve, reject) => {
+                const xhr = new XMLHttpRequest();
+                xhr.overrideMimeType('application/json');
+                xhr.open('GET', url, true);
+                xhr.onload = function () {
+                    if (xhr.status === 0 || (xhr.status >= 200 && xhr.status < 300)) {
+                        try {
+                            resolve(JSON.parse(xhr.responseText));
+                        } catch (parseErr) {
+                            reject(parseErr);
+                        }
+                    } else {
+                        reject(err);
+                    }
+                };
+                xhr.onerror = () => reject(err);
+                xhr.send();
+            });
+        }
+        throw err;
     }
-    return response.json();
 }
 
 function createPlaceholderAvatar(name, photoUrl = '') {
