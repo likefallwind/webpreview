@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body data-page="home">
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
@@ -91,19 +91,8 @@
                 <h2 class="section-title">新闻动态</h2>
                 <p class="section-subtitle">Latest Updates and Achievements</p>
             </div>
-            <div class="news-summary-list">
-                <div class="news-summary-item">
-                    <div class="news-summary-date">2024-11-01</div>
-                    <h4 class="news-summary-title">实验室在NeurIPS 2024会议上发表5篇论文</h4>
-                </div>
-                <div class="news-summary-item">
-                    <div class="news-summary-date">2024-10-15</div>
-                    <h4 class="news-summary-title">李明教授团队获得国家自然科学基金重点项目资助</h4>
-                </div>
-                <div class="news-summary-item">
-                    <div class="news-summary-date">2024-09-20</div>
-                    <h4 class="news-summary-title">实验室与华为技术有限公司签署战略合作协议</h4>
-                </div>
+            <div id="news-summary-list" class="news-summary-list">
+                <p class="news-summary-empty">正在加载最新新闻...</p>
             </div>
             <div class="news-more-btn-container">
                 <a href="news.html" class="news-more-link">查看详情 →</a>

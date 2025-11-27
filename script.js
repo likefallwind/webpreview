@@ -225,8 +225,11 @@ function createLinkButton(label, url, className = 'paper-url-btn') {
     const link = document.createElement('a');
     link.textContent = label;
     link.className = className;
-    link.href = url;
+    if (url) {
+        link.setAttribute('href', url);
+    }
     link.target = '_blank';
+    link.rel = 'noopener noreferrer';
     return link;
 }
 
@@ -273,6 +276,42 @@ async function loadNewsPage() {
         });
     } catch (error) {
         newsContainer.innerHTML = `<p class="empty-state">加载新闻失败：${error.message}</p>`;
+    }
+}
+
+async function loadHomeNewsSummary() {
+    const summaryContainer = document.getElementById('news-summary-list');
+    if (!summaryContainer) return;
+
+    summaryContainer.innerHTML = '<p class="news-summary-empty">正在加载最新新闻...</p>';
+
+    try {
+        const news = await fetchData('news.json');
+        summaryContainer.innerHTML = '';
+
+        const latestNews = news.slice(0, 3);
+        if (!latestNews.length) {
+            summaryContainer.innerHTML = '<p class="news-summary-empty">暂无新闻动态。</p>';
+            return;
+        }
+
+        latestNews.forEach(item => {
+            const wrapper = document.createElement('div');
+            wrapper.className = 'news-summary-item';
+
+            const dateEl = document.createElement('div');
+            dateEl.className = 'news-summary-date';
+            dateEl.textContent = formatDisplayDate(item.date);
+
+            const titleEl = document.createElement('h4');
+            titleEl.className = 'news-summary-title';
+            titleEl.textContent = item.title;
+
+            wrapper.append(dateEl, titleEl);
+            summaryContainer.appendChild(wrapper);
+        });
+    } catch (error) {
+        summaryContainer.innerHTML = `<p class="news-summary-empty">加载新闻失败：${error.message}</p>`;
     }
 }
 
@@ -538,6 +577,9 @@ async function loadTeamPage() {
 function initPageData() {
     const page = document.body.dataset.page;
     switch (page) {
+        case 'home':
+            loadHomeNewsSummary();
+            break;
         case 'news':
             loadNewsPage();
             break;
