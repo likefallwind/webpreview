@@ -1,0 +1,366 @@
+[
+  {
+    "title": "GeoEdit: Geometric Knowledge Editing for Large Language Models",
+    "authors": "Yujie Feng, Liming Zhan, Zexin Lu, Yongxin Xu, Xu Chu, Yasha Wang, Jiannong Cao, Philip S Yu, Xiao-Ming Wu",
+    "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "date": "2025-11-04",
+    "link": ""
+  },
+  {
+    "title": "AIMMerging: Adaptive Iterative Model Merging Using Training Trajectories for Language Model Continual Learning",
+    "authors": "Yujie Feng, Jian Li, Xiaoyu Dong, Pengfei Xu, Xiaohui Zhou, Yujia Zhang, Zexin Lu, Yasha Wang, Alan Zhao, Xu Chu, Xiao-Ming Wu",
+    "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "date": "2025-11-04",
+    "link": ""
+  },
+  {
+    "title": "3DS: Medical Domain Adaptation of LLMs via Decomposed Difficulty-based Data Selection",
+    "authors": "Hongxin Ding, Yue Fang, Runchuan Zhu, Xinke Jiang, Jinyang Zhang, Yongxin Xu, Weibin Liao, Xu Chu, Junfeng Zhao, Yasha Wang",
+    "venue": "Empirical Methods in Natural Language Processing (EMNLP)",
+    "date": "2025-11-04",
+    "link": "3DS Medical Domain Adaptation of LLMs via Decomposed Difficulty-based Data Selection.pdf"
+  },
+  {
+    "title": "Imputation with Inter-Series Information from Prototypes for Healthcare Time Series",
+    "authors": "Zhihao Yu, Liantao Ma, Yasha Wang, Xu Chu",
+    "venue": "Journal of Computer Science and Technology",
+    "date": "2025-09-26",
+    "link": "JCST - Imputation with Inter-Series Information from Prototypes for.pdf"
+  },
+  {
+    "title": "Protocol for detecting oral squamous cell carcinoma in histopathology images using the momentum contrast framework",
+    "authors": "Xiaoyun Zhang, Yue Fang, Weibin Liao, Junyi Ma, Xin Gao, Min Gao, Junfeng Zhao",
+    "venue": "STAR protocols",
+    "date": "2025-09-19",
+    "link": "Protocol for detecting oral squamous cell carcinoma in histopathology images using the momentum contrast framework.pdf"
+  },
+  {
+    "title": "LoRA Dropout as a Sparsity Regularizer for Overfitting Reduction",
+    "authors": "Yang Lin, Xinyu Ma, Xu Chu, Yujie Jin, Zhibang Yang, Yasha Wang",
+    "venue": "Knowledge-Based Systems (KBS)",
+    "date": "2025-08-09",
+    "link": ""
+  },
+  {
+    "title": "IntelliCare: Improving healthcare analysis with patient-level knowledge from large language models",
+    "authors": "Zhihao Yu, Yujie Jin, Yongxin Xu, Xiaoyun Zhang, Yasha Wang",
+    "venue": "Knowledge-Based Systems",
+    "date": "2025-07-28",
+    "link": "KBS - IntelliCare Improving healthcare analysis with patient-level knowledge from large language models.pdf"
+  },
+  {
+    "title": "Parenting: Optimizing Knowledge Selection of Retrieval-Augmented Language Models with Parameter Decoupling and Tailored Tuning",
+    "authors": "Yongxin Xu, Ruizhe Zhang, Xinke Jiang, Yujie Feng, Yuzhen Xiao, Xinyu Ma, Runchuan Zhu, Xu Chu, Junfeng Zhao, Yasha Wang",
+    "venue": "the Association for Computational Linguistics(ACL)",
+    "date": "2025-07-27",
+    "link": "Parenting_ Optimizing Knowledge Selection of Retrieval-Augmented Language Models with Parameter Decoupling and Tailored Tuning.pdf"
+  },
+  {
+    "title": "Recurrent Knowledge Identification and Fusion for Language Model Continual Learning",
+    "authors": "Yujie Feng, Xujia Wang, Zexin Lu, Shenghong Fu, Guangyuan Shi, Yongxin Xu, Yasha Wang, Philip S Yu, Xu Chu, Xiao-Ming Wu",
+    "venue": "The 63rd Annual Meeting of the Association for Computational Linguistics (ACL)",
+    "date": "2025-07-27",
+    "link": ""
+  },
+  {
+    "title": "HyKGE: A Hypothesis Knowledge Graph Enhanced RAG Framework for Accurate and Reliable Medical LLMs Responses",
+    "authors": "Xinke Jiang, Ruizhe Zhang, Yongxin Xu, Rihong Qiu, Yue Fang, Zhiyuan Wang, Jinyi Tang, Hongxin Ding, Xu Chu, Junfeng Zhao, Yasha Wang",
+    "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics",
+    "date": "2025-07-26",
+    "link": "HyKGE- A Hypothesis Knowledge Graph Enhanced RAG Framework for Accurate and Reliable Medical LLMs Responses.pdf"
+  },
+  {
+    "title": "TC–RAG: Turing–Complete RAG’s Case study on Medical LLM Systems",
+    "authors": "Xinke Jiang, Yue Fang, Rihong Qiu, Haoyu Zhang, Yongxin Xu, Hao Chen, Wentao Zhang, Ruizhe Zhang, Yuchen Fang, Xinyu Ma, Xu Chu, Junfeng Zhao, Yasha Wang",
+    "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics",
+    "date": "2025-07-26",
+    "link": "TC–RAG Turing–Complete RAG’s Case study on Medical LLM Systems.pdf"
+  },
+  {
+    "title": "Learnable Prompt as Pseudo-Imputation: Rethinking the Necessity of Traditional EHR Data Imputation in Downstream Clinical Prediction",
+    "authors": "Weibin Liao, Yinghao Zhu, Zhongji Zhang, Yuhang Wang, Zixiang Wang, Xu Chu, Yasha Wang, Liantao Ma",
+    "venue": "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)",
+    "date": "2025-07-20",
+    "link": "Learnable Prompt as Pseudo-Imputation：Rethinking the Necessity of Traditional EHR Data Imputation in Downstream Clinical Prediction.pdf"
+  },
+  {
+    "title": "Efficient Graph Continual Learning via Lightweight Graph Neural Tangent Kernels-based Dataset Distillation",
+    "authors": "Rihong Qiu, Xinke Jiang, Yuchen Fang, Hongbin Lai, Hao Miao, Xu Chu, Junfeng Zhao, Yasha Wang",
+    "venue": "International Conference on Machine Learning (ICML)",
+    "date": "2025-07-13",
+    "link": "Efficient Graph Continual Learning via Lightweight Graph Neural Tangent Kernels-based Dataset Distillation.pdf"
+  },
+  {
+    "title": "Adaptive Activation Steering: A Tuning-Free LLM Truthfulness Improvement Method for Diverse Hallucinations Categories",
+    "authors": "Tianlong Wang, Xianfeng Jiao, Yinghao Zhu, Zhongzhi Chen, Yifan He, Xu Chu, Junyi Gao, Yasha Wang, Liantao Ma",
+    "venue": "The Web Conference (WWW)",
+    "date": "2025-04-28",
+    "link": "Adaptive Activation Steering_A Tuning-Free LLM Truthfulness Improvement Method for Diverse Hallucinations Categories.pdf.pdf"
+  },
+  {
+    "title": "TPO: Aligning Large Language Models with Multi-branch & Multi-step Preference Trees",
+    "authors": "Weibin Liao, Xu Chu, Yasha Wang",
+    "venue": "International Conference on Learning Representations (ICLR)",
+    "date": "2025-04-24",
+    "link": "TPO：Aligning large language models with multi-branch & multi-step preference trees.pdf"
+  },
+  {
+    "title": "DRESSing Up LLM: Efficient Stylized Question-Answering via Style Subspace Editing",
+    "authors": "Xinyu Ma, Yifeng Xu, Yang Lin, Tianlong Wang, Xu Chu, Xin Gao, Junfeng Zhao, Yasha Wang",
+    "venue": "The Thirteenth International Conference on Learning Representations, 2025 (ICLR'25)",
+    "date": "2025-04-24",
+    "link": ""
+  },
+  {
+    "title": "HistoMoCo: Momentum Contrastive Learning Pre-Training on Unlabeled Histopathological Images for Oral Squamous Cell Carcinoma Detection",
+    "authors": "Weibin Liao, Yifan He, Bowen Jiang, Junfeng Zhao, Min Gao, Xiaoyun Zhang",
+    "venue": "Electronics",
+    "date": "2025-03-22",
+    "link": "HistoMoCo： Momentum Contrastive Learning Pre-Training on Unlabeled Histopathological Images for Oral Squamous Cell Carcinoma Detection.pdf"
+  },
+  {
+    "title": "KnowPO: Knowledge-Aware Preference Optimization for Controllable Knowledge Selection in Retrieval-Augmented Language Models",
+    "authors": "Ruizhe Zhang;Yongxin Xu;Yuzhen Xiao;Runchuan Zhu;Xinke Jiang;Xu Chu;Junfeng Zhao;Yasha Wang",
+    "venue": "Association for the Advancement of Artificial Intelligence (AAAI)",
+    "date": "2025-02-25",
+    "link": "KnowPO_ Knowledge-Aware Preference Optimization for Controllable Knowledge Selection in Retrieval-Augmented Language Models.pdf"
+  },
+  {
+    "title": "DearLLM: Enhancing Personalized Healthcare via Large Language Models-Deduced Feature Correlations",
+    "authors": "Yongxin Xu, Xinke Jiang, Xu Chu, Rihong Qiu, Yujie Feng, Hongxin Ding, Junfeng Zhao, Yasha Wang, Bing Xie",
+    "venue": "AAAI Conference on Artificial Intelligence (AAAI)",
+    "date": "2025-02-25",
+    "link": "DearLLM_Enhancing Personalized Healthcare via Large Language Models-Deduced Feature Correlations.pdf"
+  },
+  {
+    "title": "RAGraph: A General Retrieval-Augmented Graph Learning Framework",
+    "authors": "Xinke Jiang, Rihong Qiu, Yongxin Xu, Wentao Zhang, Yichen Zhu, Ruizhe Zhang, Yuchen Fang, Xu Chu, Junfeng Zhao, Yasha Wang",
+    "venue": "Advances in Neural Information Processing Systems",
+    "date": "2024-12-20",
+    "link": "RAGraph- A General Retrieval-Augmented Graph Learning Framework.pdf"
+  },
+  {
+    "title": "Protocol to process follow-up electronic medical records of peritoneal dialysis patients to train AI models",
+    "authors": "Tianlong Wang, Yinghao Zhu, Zixiang Wang, Wen Tang, Xinju Zhao, Tao Wang, Yasha Wang, Junyi Gao, Liantao Ma, Ling Wang",
+    "venue": "STAR Protocls",
+    "date": "2024-12-20",
+    "link": "Protocol to process follow-up electronic medical records of peritoneal dialysis patients to train AI models.pdf"
+  },
+  {
+    "title": "Smart: Towards pre-trained missing-aware model for patient health status prediction",
+    "authors": "Zhihao Yu, Chu Xu, Yujie Jin, Yasha Wang, Junfeng Zhao",
+    "venue": "Advances in Neural Information Processing Systems",
+    "date": "2024-12-16",
+    "link": "NeurIPS - Smart Towards pre-trained missing-aware model for patient health status prediction.pdf"
+  },
+  {
+    "title": "ProtoMix: Augmenting Health Status Representation Learning via Prototype-based Mixup",
+    "authors": "Yongxin Xu, Xinke Jiang, Xu Chu, Yuzhen Xiao, Chaohe Zhang, Hongxin Ding, Junfeng Zhao, Yasha Wang, Bing Xie",
+    "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD)",
+    "date": "2024-08-25",
+    "link": "ProtoMix_Augmenting Health Status Representation Learning via Prototype-based Mixup.pdf"
+  },
+  {
+    "title": "Combating Label Sparsity in Short Text Topic Modeling via Nearest Neighbor Augmentation",
+    "authors": "Yang Lin, Xinyu Ma, Xin Gao, Ruiqing Li, Yasha Wang, Xu Chu",
+    "venue": "Association for Computational Linguistics (ACL)",
+    "date": "2024-08-11",
+    "link": ""
+  },
+  {
+    "title": "Temporal domain generalization via learning instance-level evolving patterns",
+    "authors": "Yujie Jin, Zhibang Yang, Xu Chu, Liantao Ma",
+    "venue": "International Joint Conference on Artificial Intelligence （IJCAI）",
+    "date": "2024-08-03",
+    "link": "Temporal Domain Generalization via Learning Instance-level Evolving Patterns.pdf"
+  },
+  {
+    "title": "Parameter Efficient Quasi-Orthogonal Fine-Tuning via Givens Rotation",
+    "authors": "Xinyu Ma, Xu Chu, Zhibang Yang, Yang Lin, Xin Gao, Junfeng Zhao",
+    "venue": "Forty-first International Conference on Machine Learning, 2024 (ICML'24)",
+    "date": "2024-07-21",
+    "link": ""
+  },
+  {
+    "title": "Enhancing topic interpretability for neural topic modeling through topic-wise contrastive learning",
+    "authors": "Xin Gao, Yang Lin, Ruiqing Li, Yasha Wang, Xu Chu, Xinyu Ma, Hailong Yu",
+    "venue": "International Conference on Data Engineering",
+    "date": "2024-05-13",
+    "link": ""
+  },
+  {
+    "title": "Predict and interpret health risk using ehr through typical patients",
+    "authors": "Zhihao Yu, Chaohe Zhang, Yasha Wang, Wen Tang, Jiangtao Wang, Liantao Ma",
+    "venue": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+    "date": "2024-04-14",
+    "link": "ICASSP - Predict and interpret health risk using ehr through typical patients.pdf"
+  },
+  {
+    "title": "Fused Gromov-Wasserstein Graph Mixup for Graph-level Classifications",
+    "authors": "Xinyu Ma, Xu Chu, Yasha Wang, Yang Lin, Junfeng Zhao, Liantao Ma, Wenwu Zhu",
+    "venue": "Thirty-seventh Conference on Neural Information Processing Systems, 2023 (NeurIPS'23)",
+    "date": "2023-12-10",
+    "link": ""
+  },
+  {
+    "title": "Mortality prediction with adaptive feature importance recalibration for peritoneal dialysis patients",
+    "authors": "Liantao Ma, Chaohe Zhang, Junyi Gao, Xianfeng Jiao, Zhihao Yu, Yinghao Zhu, Tianlong Wang, Xinyu Ma, Yasha Wang, Wen Tang, Xinju Zhao, Wenjie Ruan, Tao Wang",
+    "venue": "Cell Patterns",
+    "date": "2023-12-08",
+    "link": ""
+  },
+  {
+    "title": "A method and practice for menopausal disease prediction based on knowledge graph",
+    "authors": "Yue Fang; Yongxin Xu; Hongxin Din; Junfeng Zhao; Yasha Wang; Hongyan Jin",
+    "venue": "2023 IEEE International Conference on Medical Artificial Intelligence",
+    "date": "2023-11-18",
+    "link": "A_method_and_practice_for_menopausal_disease_prediction_based_on_knowledge_graph.pdf"
+  },
+  {
+    "title": "Positive Sample Augmentation with Graph Mixup for DDI Prediction",
+    "authors": "Hailong Yu, Xinyu Ma, Xu Chu, Yasha Wang, Rengyu Wu, Qiang Zhou",
+    "venue": "International Conference on Medical Artificial Intelligence (MedAI))",
+    "date": "2023-11-18",
+    "link": ""
+  },
+  {
+    "title": "Ambulance Location Optimization via Fine-grained Emergency Demand Forecasting",
+    "authors": "Xin Gao, Zhengye Zhu, Yasha Wang, Junfeng Zhao, Rengyu Wu, Qiang Zhou",
+    "venue": "International Conference on Medical Artificial Intelligence",
+    "date": "2023-11-18",
+    "link": ""
+  },
+  {
+    "title": "A knowledge-enhanced medical named entity recognition method that integrates pre-trained language models",
+    "authors": "Zhiyuan Wang, Qiang Zhou, Zhao Junfeng, Yasha Wang, Hongxin Ding, Jiahe Song",
+    "venue": "International Conference on Medical Artificial Intelligence (IEEE MedAI)",
+    "date": "2023-11-18",
+    "link": ""
+  },
+  {
+    "title": "Patient health representation learning via correlational sparse prior of medical features",
+    "authors": "Xinyu Ma, Yasha Wang, Xu Chu, Liantao Ma, Wen Tang, Junfeng Zhao, Ye Yuan, Guoren Wang",
+    "venue": "IEEE Transactions on Knowledge and Data Engineering（TKDE）",
+    "date": "2023-11-01",
+    "link": ""
+  },
+  {
+    "title": "VecoCare: Visit Sequences-Clinical Notes Joint Learning for Diagnosis Prediction in Healthcare Data",
+    "authors": "Yongxin Xu, Kai Yang, Chaohe Zhang, Peinie Zou, Zhiyuan Wang, Hongxin Ding, Junfeng Zhao, Yasha Wang, Bing Xie",
+    "venue": "International Joint Conference on Artificial Intelligence (IJCAI)",
+    "date": "2023-08-19",
+    "link": "VecoCare_Visit Sequences-Clinical Notes Joint Learning for Diagnosis Prediction in Healthcare Data.pdf"
+  },
+  {
+    "title": "Enhancing Neural Topic Model with Multi-Level Supervisions from Seed Words",
+    "authors": "Yang Lin, Xin Gao, Xu Chu, Yasha Wang, Junfeng Zhao, Chao Chen",
+    "venue": "Association for Computational Linguistics (ACL)",
+    "date": "2023-07-09",
+    "link": ""
+  },
+  {
+    "title": "KerPrint: local-global knowledge graph enhanced diagnosis prediction for retrospective and prospective interpretations",
+    "authors": "Kai Yang, Yongxin Xu, Peinie Zou, Hongxin Ding, Junfeng Zhao, Yasha Wang, Bing Xie",
+    "venue": "Conference on Artificial Intelligence （AAAI）",
+    "date": "2023-06-26",
+    "link": ""
+  },
+  {
+    "title": "Wasserstein barycenter matching for graph size generalization of message passing neural networks",
+    "authors": "Xu Chu, Yujie Jin, Xin Wang, Shanghang Zhang, Yasha Wang, Wenwu Zhu, Hong Mei",
+    "venue": "International Conference on Machine Learning",
+    "date": "2023-06-15",
+    "link": "Wasserstein Barycenter Matching for Graph Size Generalization of Message Passing Neural Networks.pdf"
+  },
+  {
+    "title": "Knowledge graph instance construction and evolution method based on intelligent mapping recommendation",
+    "authors": "张雅晴，单中原，赵俊峰，王亚沙",
+    "venue": "计算机科学",
+    "date": "2023-06-15",
+    "link": ""
+  },
+  {
+    "title": "SeqCare: Sequential Training with External Medical Knowledge Graph for Diagnosis Prediction in Healthcare Data.",
+    "authors": "Yongxin Xu, Xu Chu, Kai Yang, Zhiyuan Wang, Peinie Zou, Hongxin Ding, Junfeng Zhao, Yasha Wang, Bing Xie",
+    "venue": "International World Wide Web Conference (WWW)",
+    "date": "2023-04-30",
+    "link": ""
+  },
+  {
+    "title": "Enhancing Robust Text Classification via Category Description",
+    "authors": "Xin Gao，Zhengye Zhu，Xu Chu，Yasha Wang， Wenjie Ruan， Junfeng Zhao",
+    "venue": "International Conference on Data Mining",
+    "date": "2022-12-14",
+    "link": ""
+  },
+  {
+    "title": "Spatial-attention and demographic-augmented generative adversarial imputation network for population health data reconstruction",
+    "authors": "Yujie Feng, Jiangtao Wang, Yasha Wang, Xu Chu",
+    "venue": "IEEE Transactions on Big Data",
+    "date": "2022-12-08",
+    "link": ""
+  },
+  {
+    "title": "M3Care: Learning with Missing Modalities in Multimodal Healthcare Data",
+    "authors": "Chaohe Zhang, Xu Chu, Liantao Ma, Yinghao Zhu, Yasha Wang, Jiangtao Wang, Junfeng Zhao",
+    "venue": "the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+    "date": "2022-08-14",
+    "link": "M3Care- Learning with Missing Modalities in Multimodal Healthcare Data.pdf"
+  },
+  {
+    "title": "Domain generalization through the lens of angular invariance",
+    "authors": "Yujie Jin, Xu Chu, Yasha Wang, Wenwu Zhu",
+    "venue": "International Joint Conference on Artificial Intelligence （IJCAI）",
+    "date": "2022-07-23",
+    "link": "Domain Generalization through the Lens of Angular Invariance.pdf"
+  },
+  {
+    "title": "Variational Domain Adaptation Driven Semantic Segmentation of Urban Scenes",
+    "authors": "金玉杰，初旭，王亚沙*，赵俊峰",
+    "venue": "计算机科学",
+    "date": "2022-07-22",
+    "link": ""
+  },
+  {
+    "title": "DNA: Domain generalization with diversified neural averaging",
+    "authors": "Xu Chu, Yujie Jin, Wenwu Zhu, Yasha Wang, Xin Wang, Shanghang Zhang, Hong Mei",
+    "venue": "International Conference on Machine Learning",
+    "date": "2022-07-17",
+    "link": "DNA： Domain Generalization with Diversified Neural Averaging.pdf"
+  },
+  {
+    "title": "Temporal Knowledge Graph Representation Learning",
+    "authors": "徐涌鑫, 赵俊峰*, 王亚沙, 谢冰, 杨恺",
+    "venue": "计算机科学",
+    "date": "2022-05-16",
+    "link": ""
+  },
+  {
+    "title": "Ontology-Schema Mapping Based Incremental Entity Model Construction and Evolution Approach of Knowledge Graph",
+    "authors": "单中原，杨恺，赵俊峰*，王亚沙，徐涌鑫",
+    "venue": "计算机科学",
+    "date": "2022-05-16",
+    "link": ""
+  },
+  {
+    "title": "GRASP: Generic Framework for Health Status Representation Learning Based on Incorporating Knowledge from Similar Patients",
+    "authors": "Chaohe Zhang, Xin Gao, Liantao Ma, Yasha Wang, Jiangtao Wang, Wen Tang",
+    "venue": "the AAAI Conference on Artificial Intelligence (AAAI)",
+    "date": "2021-05-18",
+    "link": "GRASP：Generic Framework for Health Status Representation Learning Based on Incorporating Knowledge from Similar Patients.pdf"
+  },
+  {
+    "title": "Lda-reg: Knowledge driven regularization using external corpora",
+    "authors": "Kai Yang, Zhaojing Luo, Jinyang Gao, Junfeng Zhao, Beng Chin Ooi, Bing Xie",
+    "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE))",
+    "date": "2021-03-21",
+    "link": ""
+  },
+  {
+    "title": "ColaCare: Enhancing Electronic Health Record Modeling through Large Language Model-Driven Multi-Agent Collaboration",
+    "authors": "Zixiang Wang, Yinghao Zhu, Huiya Zhao, Xiaochen Zheng, Dehao Sui, Tianlong Wang, Wen Tang, Yasha Wang, Ewen Harrison, Chengwei Pan, Junyi Gao, Liantao Ma",
+    "venue": "International World Wide Web Conference (WWW)",
+    "date": "2025/4/28-2025/5/2",
+    "link": "ColaCare Enhancing Electronic Health Record Modeling through Large Language Model-Driven Multi-Agent Collaboration.pdf"
+  }
+]

@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body data-page="news">
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
@@ -46,32 +46,8 @@
 
     <section class="section">
         <div class="container">
-            <div class="news-list">
-                <div class="news-item">
-                    <div class="news-date">2024-11-01</div>
-                    <h4 class="news-title">实验室在NeurIPS 2024会议上发表5篇论文</h4>
-                    <p class="news-content">我们的研究团队在本年度NeurIPS会议上成功发表5篇高质量论文，涵盖深度学习优化、联邦学习和计算机视觉等前沿方向。</p>
-                </div>
-                <div class="news-item">
-                    <div class="news-date">2024-10-15</div>
-                    <h4 class="news-title">李明教授团队获得国家自然科学基金重点项目资助</h4>
-                    <p class="news-content">项目聚焦大规模预训练模型的理论与应用研究，总经费500万元，将推动实验室在自然语言处理领域的创新发展。</p>
-                </div>
-                <div class="news-item">
-                    <div class="news-date">2024-09-20</div>
-                    <h4 class="news-title">实验室与华为技术有限公司签署战略合作协议</h4>
-                    <p class="news-content">双方将在AI芯片优化、边缘智能等领域开展深度合作，共同推动人工智能技术在工业场景的落地应用。</p>
-                </div>
-                <div class="news-item">
-                    <div class="news-date">2024-08-10</div>
-                    <h4 class="news-title">博士生孙强获得CVPR 2024最佳学生论文提名奖</h4>
-                    <p class="news-content">孙强在3D视觉感知方向的研究工作获得国际同行高度认可，这是实验室连续第三年在CVPR上获得重要奖项。</p>
-                </div>
-                <div class="news-item">
-                    <div class="news-date">2024-07-05</div>
-                    <h4 class="news-title">实验室成功举办第二届AI前沿技术研讨会</h4>
-                    <p class="news-content">来自国内外50余位专家学者齐聚一堂，围绕大模型、多模态学习等热点话题展开深入交流和讨论。</p>
-                </div>
+            <div id="news-list" class="news-list">
+                <p class="empty-state">正在加载新闻动态…</p>
             </div>
         </div>
     </section>

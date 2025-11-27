@@ -1,0 +1,402 @@
+{
+  "faculty": [
+    {
+      "name": "王亚沙",
+      "title": "教授",
+      "bio": "北京大学博雅特聘教授，软件工程国家工程研究中心主任，北京大学智枢实验室负责人（PI），北京大学（天津滨海）新一代信息技术研究院执行院长，教育部长江学者，第一届全国数据标准化技术委员会委员、数据技术标准工作组（WG5）组长。长期从事人工智能、数据挖掘及医学与信息科学交叉学科研究。担任国家重点研发计划项目负责人，并承担国家多项自然科学基金、国家863计划、“核高基”重大科技专项课题。研究成果获国家科技进步二等奖、国家教育部科技进步奖一等奖。",
+      "email": "wangyasha@pku.edu.cn",
+      "homepage": "",
+      "photo": ""
+    },
+    {
+      "name": "赵俊峰",
+      "title": "研究员",
+      "bio": "赵俊峰，博士，北京大学计算机学院研究员，全国信标委分布式计算分技术委员会副秘书长，全国数标委WG5 数据技术标准工作组秘书长，大数据技术专题组秘书长，中电标协数据管理应用推进分会理事，中国计算机学会高级会员。先后主持国家重点研发计划、“863计划”、国家自然科学基金、公益性行业科研专项等9项国家级项目和北京市科技计划、国家电网总部科技项目等5项省部级项目。近年来，在TKDE、AAAI、WWW等国内外高水平期刊和国际会议上发表论文 80 余篇，主持或参与数十项国家和行业标准的制/修订，以及ISO/IEC JTC1国际标准工作组5项国际标准编制。曾获国家科技进步二等奖、高等学校科学研究优秀成果奖（科学技术）科技进步一等奖、北京市技术发明二等奖、全国信标委标准化工作先进个人、国际电工技术委员会(IEC)1906奖、杨芙清-王阳元院士教师奖、兴业全球奖教金等。主要研究方向大数据分析、大语言模型、知识工程、数据治理、城市计算等。",
+      "email": "zhaojf@pku.edu.cn",
+      "homepage": "",
+      "photo": ""
+    },
+    {
+      "name": "马连韬",
+      "title": "助理研究员",
+      "bio": "马连韬，北京大学软件工程国家工程研究中心助理研究员，北京大学计算机软件与理论专业理学博士，入选北京市“高创计划”青年人才托举工程。\n\n主要研究方向为医学人工智能，构建具备高维数据处理与深度学习模型可解释性能力的领域软件平台，以可解释深度学习、大语言模型赋能临床工作与医学科研，重点应用于慢性病管理、肿瘤诊治辅助等。主持国际/国家级课题4项、省部级课题2项；作为骨干承担国家自然科学基金重点项目、国家重点研发计划等国家级课题7项。\n\n于《Cell Patterns》首页封面发表腹膜透析患者可解释预后预测研究；在NeurIPS、WWW、KDD等人工智能与数据挖掘顶级会议发表医信交叉论文二十余篇；研发“智慧诊疗辅助系统”获中央电视台《CCTV-1》专题报道及国家卫健委《健康报》刊载；于SIGKDD会议担任AI-Medicine Workshop程序主席；任Spinger Nature旗下BMC Artificial Intelligence期刊编委。",
+      "email": "malt@pku.edu.cn",
+      "homepage": "https://mp.weixin.qq.com/s/LNXsk69Hgz1ZDovFBOhnfA\n\nhttp://scholar.pku.edu.cn/malt",
+      "photo": ""
+    },
+    {
+      "name": "初旭",
+      "title": "助理研究员",
+      "bio": "初旭，理学博士，北京大学计算机学院前沿计算研究中心助理研究员，高可信软件技术教育部重点实验室成员，北京大学算法博弈论实验室成员，北京大学智枢实验室成员。研究兴趣包括面向不同模态数据的预训练模型的泛化与适配的理论、技术与应用系统。迄今已在机器学习和数据挖掘领域国内外顶级会议及期刊发表论文四十余篇。他作为项目负责人主持了国家自然科学基金、作为项目骨干参与了科技创新2030-重大项目、科技部国家重点研发计划、国家自然科学基金联合基金、中国科学院学部学科战略研究前沿交叉研判类项目等重要课题，曾获“CCF优博激励”等荣誉。",
+      "email": "chu_xu@pku.edu.cn",
+      "homepage": "https://chuxu.online",
+      "photo": ""
+    },
+    {
+      "name": "张超贺",
+      "title": "博士后",
+      "bio": "张超贺，北京大学计算机软件与理论博士，北京大学计算机学院博雅博士后，长期从事电子病历数据深度学习研究工作，研究成果服务于终末期慢性肾病患者（腹膜透析、血液透析）、新冠肺炎重症患者、重症监护患者、眼部手术患者等，在SIGKDD、AAAI、WWW、IJCAI、Cell Patterns（封面文章）和CIKM等会议和期刊上发表了10余篇论文。",
+      "email": "choc@pku.edu.cn",
+      "homepage": "",
+      "photo": ""
+    },
+    {
+      "name": "高鑫",
+      "title": "博士后",
+      "bio": "高鑫，北京大学计算机软件与理论博士，北京大学计算机学院博士后，长期从事文本分类、主题建模、深度表示学习等方面研究工作，研究成果服务于大模型检索增强系统、院前急救数据分析、大模型专病字段自动抽取等领域，在ICDE、ICDM、ICML、ACL、AAAI和ICLR等会议和期刊上发表了10余篇论文。",
+      "email": "xingao@pku.edu.cn",
+      "homepage": "",
+      "photo": ""
+    },
+    {
+      "name": "马钧轶",
+      "title": "博士后",
+      "bio": "马钧轶，，北京大学计算机软件与理论博士，北京大学计算机学院博士后，长期从事预训练模型集成、时序数据挖掘和在医疗、金融、电力的垂直领域应用；聚焦于解决海量异质异构数据关联分析，持续训练的灾难性遗忘问题，以及大模型与其他工具的集成问题，在国际人工智能、数据挖掘领域顶会顶刊CSCW、UBICOMP、IEEE TMC等发表论文10余篇。",
+      "email": "majunyi@pku.edu.cn",
+      "homepage": "",
+      "photo": ""
+    }
+  ],
+  "students": [
+    {
+      "name": "王一博",
+      "title": "博士",
+      "bio": "博士，目前工作在北京中关村学院，专注在AI+教育领域，具备丰富的教学经验",
+      "email": "wangyibopku@pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2025",
+      "awards": "北京大学优秀毕业生，北美建模大赛金奖"
+    },
+    {
+      "name": "金玉杰",
+      "title": "博士",
+      "bio": "博士，主要从事机器学习泛化性、大模型RAG方向的研究",
+      "email": "jinyujie@pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2021",
+      "awards": ""
+    },
+    {
+      "name": "杨志邦",
+      "title": "博士",
+      "bio": "博士，主要从事RAG、大模型文档生成及智能体Agent方向的研究。",
+      "email": "yangzb@stu.pku.edu.cn",
+      "homepage": "https://scholar.google.com/citations?user=OZozTkgAAAAJ",
+      "photo": "",
+      "joined": "2024",
+      "awards": ""
+    },
+    {
+      "name": "方越",
+      "title": "博士",
+      "bio": "博士，主要从事Medical LLM及其应用相关研究",
+      "email": "yuefang25@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2025",
+      "awards": ""
+    },
+    {
+      "name": "肖宇桢",
+      "title": "硕士",
+      "bio": "硕士，主要从事Agent、LLM相关研究",
+      "email": "xiaoyuzhen@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2024",
+      "awards": "本科生国家奖学金，全国大学生数学竞赛一等奖，美国大学生数学建模竞赛M奖，北京市优秀毕业生称号"
+    },
+    {
+      "name": "章锦阳",
+      "title": "硕士",
+      "bio": "硕士，主要从事LLM及其应用相关研究",
+      "email": "jinyangzhang25@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2025",
+      "awards": "本科生国家奖学金，全国大学生数学竞赛一等奖，浙江省物理竞赛一等奖，浙江省优秀毕业生称号"
+    },
+    {
+      "name": "邱日宏",
+      "title": "硕士",
+      "bio": "硕士，正在深入探索大数据科学背后的奥秘，期待挖掘数据背后的故事以解决现实问题",
+      "email": "rihongqiu@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2024",
+      "awards": ""
+    },
+    {
+      "name": "贾天宇",
+      "title": "博士",
+      "bio": "博士，主要从事LLM推理相关研究",
+      "email": "jiatianyu@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2025",
+      "awards": "北京大学优秀毕业生"
+    },
+    {
+      "name": "王子翔",
+      "title": "硕士",
+      "bio": "硕士，主要研究方向为医疗大模型智能体",
+      "email": "wangzx@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2024",
+      "awards": ""
+    },
+    {
+      "name": "廖伟斌",
+      "title": "博士",
+      "bio": "博士，关注强化学习算法和参数高效微调算法在大语言模型上的应用",
+      "email": "liaoweibin@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2023",
+      "awards": ""
+    },
+    {
+      "name": "张志心",
+      "title": "博士",
+      "bio": "博士，主要从事LLM强化学习和对齐任务相关研究",
+      "email": "zhixinzhang25@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2025",
+      "awards": "浙江省优秀毕业生，国际大学生程序设计竞赛（ACM/ICPC）东亚大陆区决赛银奖/亚洲区域赛金奖，中国大学生程序设计竞赛（CCPC）区域赛金奖/女赛亚军"
+    },
+    {
+      "name": "赵慧雅",
+      "title": "硕士",
+      "bio": "硕士，主要从事医学大模型相关应用研究",
+      "email": "zhaohuiya@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2024",
+      "awards": ""
+    },
+    {
+      "name": "睢德昊",
+      "title": "本科生",
+      "bio": "本科实习生，主要研究方向为医疗大模型智能体以及AI辅助诊疗平台",
+      "email": "dehaosui1@gmail.com",
+      "homepage": "",
+      "photo": "",
+      "joined": "2026",
+      "awards": "本科生国家奖学金，北京市自然科学基金“启研计划”项目主持人"
+    },
+    {
+      "name": "高嘉然",
+      "title": "本科生",
+      "bio": "本科实习生，主要从事LLM及其应用相关研究",
+      "email": "gaojiaran2004@163.com",
+      "homepage": "",
+      "photo": "",
+      "joined": "2026",
+      "awards": "本科生国家奖学金，北京市物理竞赛一等奖、国际大学生程序设计竞赛（ACM/ICPC）亚洲区域赛铜奖、中国大学生程序设计竞赛（CCPC）区域赛铜奖"
+    },
+    {
+      "name": "李瑞庆",
+      "title": "博士",
+      "bio": "博士，主要从事RAG、强化学习算法在大语言模型上的应用",
+      "email": "lrq@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2023",
+      "awards": ""
+    },
+    {
+      "name": "丁泓馨",
+      "title": "博士",
+      "bio": "博士，主要从事垂域大模型训练与应用的相关研究",
+      "email": "dinghx@pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2022",
+      "awards": ""
+    },
+    {
+      "name": "刘景文",
+      "title": "本科生",
+      "bio": "本科实习生，主要从事LLM及其应用相关研究",
+      "email": "ljw3238135955@gmail.com",
+      "homepage": "",
+      "photo": "",
+      "joined": "2026",
+      "awards": ""
+    },
+    {
+      "name": "周子然",
+      "title": "本科生",
+      "bio": "本科实习生，主要从事LLM及其应用相关研究",
+      "email": "zzrac05@gmail.com",
+      "homepage": "",
+      "photo": "",
+      "joined": "2026",
+      "awards": "本科生国家奖学金"
+    },
+    {
+      "name": "王天龙",
+      "title": "硕士",
+      "bio": "硕士，主要从事 LLM 表征编辑和参数高效微调相关研究",
+      "email": "tianlong.wang@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2023",
+      "awards": ""
+    },
+    {
+      "name": "张瑞哲",
+      "title": "硕士",
+      "bio": "硕士，主要从事RAG、Agent的相关研究",
+      "email": "nostradamus@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2023",
+      "awards": ""
+    },
+    {
+      "name": "蒋新科",
+      "title": "硕士",
+      "bio": "硕士，主要从事RAG、Agent、RL的相关研究",
+      "email": "xinkejiang@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2023",
+      "awards": ""
+    },
+    {
+      "name": "余志浩",
+      "title": "博士",
+      "bio": "博士，主要从事时间序列、时序基模型、大模型增益小模型方向的研究",
+      "email": "yuzhihao@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2021",
+      "awards": ""
+    },
+    {
+      "name": "赖洪斌",
+      "title": "硕士",
+      "bio": "硕士，主要从事 Agent, LLM 相关研究",
+      "email": "hongbinlai2024@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2024",
+      "awards": ""
+    },
+    {
+      "name": "何逸凡",
+      "title": "硕士",
+      "bio": "硕士，主要从事RAG相关研究",
+      "email": "heyf@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2023",
+      "awards": ""
+    },
+    {
+      "name": "徐艺峰",
+      "title": "硕士",
+      "bio": "硕士，主要从事RAG相关研究",
+      "email": "xuyifeng@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2025",
+      "awards": "北京大学优秀毕业生"
+    },
+    {
+      "name": "汪宇航",
+      "title": "硕士",
+      "bio": "硕士，主要从事LLM强化学习相关研究",
+      "email": "yuhang.wang@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2023",
+      "awards": ""
+    },
+    {
+      "name": "马元琛",
+      "title": "博士",
+      "bio": "在职博士，目前就职于日立中国研究院，主要从事大语言模型和人工智能在工业领域的行业应用研究。",
+      "email": "mayuanchen@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2023",
+      "awards": ""
+    },
+    {
+      "name": "徐楚奇",
+      "title": "硕士",
+      "bio": "硕士，主要从事Medical LLM相关研究",
+      "email": "chuqixu@pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2025",
+      "awards": ""
+    },
+    {
+      "name": "蒋博文",
+      "title": "硕士",
+      "bio": "硕士，主要从事Medical LLM相关研究",
+      "email": "jbw@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2023",
+      "awards": ""
+    },
+    {
+      "name": "郭雨馨",
+      "title": "本科生",
+      "bio": "本科实习生，主要从事LLM及其应用相关研究",
+      "email": "guoyvxin@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2026",
+      "awards": ""
+    },
+    {
+      "name": "黄柏翔",
+      "title": "本科生",
+      "bio": "本科实习生，主要从事LLM及其应用相关研究",
+      "email": "baixianghuang100@gmail.com",
+      "homepage": "https://scholar.google.com/citations?hl=zh-CN&user=oDH4UrYAAAAJ",
+      "photo": "",
+      "joined": "2026",
+      "awards": "本科生国家奖学金、美国大学生数学建模竞赛M奖、山东省物理竞赛一等奖"
+    },
+    {
+      "name": "秦喆",
+      "title": "硕士",
+      "bio": "硕士，主要从事LLM及其应用相关研究",
+      "email": "2301210660@stu.pku.edu.cn",
+      "homepage": "",
+      "photo": "",
+      "joined": "2023",
+      "awards": ""
+    },
+    {
+      "name": "迟力文",
+      "title": "硕士",
+      "bio": "硕士，主要从事 LLM 及其应用相关研究",
+      "email": "pher1874@163.com",
+      "homepage": "",
+      "photo": "",
+      "joined": "2025",
+      "awards": ""
+    },
+    {
+      "name": "邱梓涵",
+      "title": "本科生",
+      "bio": "本科实习生，主要从事RAG、LLM及其应用相关研究",
+      "email": "",
+      "homepage": "",
+      "photo": "",
+      "joined": "2026",
+      "awards": ""
+    }
+  ]
+}
